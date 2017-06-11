@@ -1,0 +1,71 @@
+.file-input {
+  display: none;
+}
+
+.vibrant-canvas {
+  display: none;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  transition: 2s;
+}
+
+.app__main {
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.app__main__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+.app__main__image > img {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  transition: .2s;
+}
+
+.app__main__image:hover {
+  filter: brightness(.3);
+}
+
+.app__main__image:active {
+  transform: scale3d(.93,.93,1);
+}
+
+.app__main__palettes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.app__main__palettes > .palette {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .2s;
+}
+
+.app__main__palettes > .palette:hover,
+.app__main__palettes > .palette.active {
+  transform: scale3d(1.4, 1.4, 1);
+}
+
+
