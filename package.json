@@ -7,7 +7,8 @@
     "lodash": "^4.17.4",
     "node-vibrant": "3.0.0-alpha.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-palette": "^0.1.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import cn from 'classnames'
-import Palette from './Palette'
+import Palette from 'react-palette'
+// import Palette from './Palette'
 import FitImage from './FitImage'
 import { COLOR_PALETTES, IMAGE_URL } from '../constants';
 import './App.css'
